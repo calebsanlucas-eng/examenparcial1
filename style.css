@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #bd2828;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0066cc;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Redes sociales */
+footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Tema oscuro */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode header {
+    background-color: #444;
+}
+
+body.dark-mode button {
+    background-color: #005bb5;
+}
+
+body.dark-mode footer a {
+    color: #66ccff;
+}
