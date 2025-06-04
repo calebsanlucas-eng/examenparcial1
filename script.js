@@ -1,9 +1,8 @@
-// Función para cambiar entre tema claro y oscuro
 document.getElementById("cambiar-tema").addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
 });
 
-// Validar formulario
+
 function validarFormulario() {
     const nombre = document.getElementById("nombre").value;
     const correo = document.getElementById("correo").value;
@@ -17,7 +16,6 @@ function validarFormulario() {
     return true;
 }
 
-// Cargar participantes aleatorios desde la API
 window.onload = function() {
     fetch('https://randomuser.me/api/?results=5')
         .then(response => response.json())
